@@ -19071,7 +19071,14 @@ public final class Settings {
          * Toast animations
          * @hide
          */
+        
         public static final String TOAST_ANIMATION = "toast_animation";
+
+        /**
+         * Enable advanced freeform window logic
+         * @hide
+         */
+        public static final String ADVANCED_FREEFORM_WINDOW = "advanced_freeform_window";
 
         /**
          * Global settings that shouldn't be persisted.
