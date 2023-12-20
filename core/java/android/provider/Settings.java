@@ -18247,6 +18247,12 @@ public final class Settings {
         public static final String ONE_HANDED_KEYGUARD_SIDE = "one_handed_keyguard_side";
 
         /**
+         * Enable advanced freeform window logic
+         * @hide
+         */
+        public static final String ADVANCED_FREEFORM_WINDOW = "advanced_freeform_window";
+
+        /**
          * Global settings that shouldn't be persisted.
          *
          * @hide
