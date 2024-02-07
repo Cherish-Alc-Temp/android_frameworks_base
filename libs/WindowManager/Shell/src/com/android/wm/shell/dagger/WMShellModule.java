@@ -230,12 +230,13 @@ public abstract class WMShellModule {
                     rootTaskDisplayAreaOrganizer);
         }
         return new CaptionWindowDecorViewModel(
-                context,
-                mainHandler,
-                mainChoreographer,
-                taskOrganizer,
-                displayController,
-                syncQueue);
+                    context,
+                    mainHandler,
+                    mainChoreographer,
+                    taskOrganizer,
+                    displayController,
+                    syncQueue,
+                    transitions);
     }
 
     //
